@@ -1,0 +1,116 @@
+.player{
+    background-color: #61656d;
+    color: white;
+}
+.row{
+    color: white;
+}
+.square{ 
+    border: solid;
+    border-width: 1px;
+
+    font-size: 30px;
+    color: #BA5624;
+    background-color: #011638;
+
+    width: 140px;
+    height: 140px;
+}
+
+
+.game{
+    
+    position:fixed;
+    text-align: center;
+    top:30%;
+    
+}
+.status{
+    position: fixed;
+    width:100%;
+    right: 0%;
+    top: 7%;
+}
+.placarText{
+    position: inherit;
+    width: 100%; 
+    height: 30px;
+    right: 0%;
+    top: 20%;
+    
+}
+.placar{
+    position: fixed;
+    top:24%;
+    left:45.5%
+}
+.placarReset{
+    position: inherit;
+    top:13%;
+    left:45.5%
+}
+
+.main{
+    position: fixed;
+    background-color: #f5f5dc;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.info{
+    position: fixed;
+    text-align: center;
+    top:13%;
+    font-size: 25px;
+    left: 44%;
+}
+
+.gameHeader{
+    position:relative;
+
+    text-align: center;
+    color: #011638;
+    font-size: 40px;
+
+    background-color: #5B5941;
+    width: 100%;
+    height: 50px;
+}
+
+.gameBoard{
+    position: fixed;
+    left: 40%;
+    top:30%;
+}
+.board{
+    position: relative;
+    line-height: 50px;
+    line-clamp: 100px;
+}
+.historyList{
+    position: relative;
+    list-style: none;
+}
+
+.historyButton{
+    position: relative;
+    width:300px;
+    border:#011638 ;
+    right: 5%;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    background-color: #685634;
+}
+
+.placarButton{
+    position: relative;
+    width:200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #685634;
+    color: white;
+    border-color: #64573d ;
+}
